@@ -64,14 +64,18 @@ class SiteController extends Controller
 
     public function actionLogin()
     {
+         echo "HUJ W DUPE YII"+Yii::$app->user->identity;
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
+            echo "HUJ W DUPE YII"+Yii::$app->user->identity;
+            //return $this->goBack();
         }
+         echo "HUJ W DUPE YII1"+Yii::$app->user->identity;
+        //if(Yii::$app->user->identity->username == 'admin' || $model->isAdmin)
         return $this->render('login', [
             'model' => $model,
         ]);
@@ -99,6 +103,10 @@ class SiteController extends Controller
 
     public function actionAbout()
     {
-        return $this->render('about');
+        $this->redirect(array('uzyt/index'));
+        ////runController('uzyt/index');
+       // ;return Yii::$app->runAction($this->error);
+        //return $this->render('about');
     }
+
 }
