@@ -7,5 +7,3 @@ use yii\helpers\Html;
 $this->title = 'serial';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-
-dupa

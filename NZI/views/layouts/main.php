@@ -8,6 +8,7 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
+use yii\filters\AccessControl;
 
 AppAsset::register($this);
 ?>
@@ -63,33 +64,31 @@ TO JEST ORYGINALNY LAYOUT Z FUNKCJAMI - JAK CHCECIE TO USUNCIE, ZOSTAWIAM :P
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'AMW Episode Callendar',
+        'brandLabel' => 'AMW Episode Calendar',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => [
-            ['label' => 'Main Page', 'url' => ['/site/index']],
-            ['label' => 'Callendar', 'url' => ['/site/calendar']],
+
+	$navItems=[
+    ['label' => 'Main Page', 'url' => ['/site/index']],
+            ['label' => 'Calendar', 'url' => ['/site/calendar']],
 			['label' => 'Serial List', 'url' => ['/site/serial']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
-            Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login']]
-            ) : (
-                '<li>'
-                . Html::beginForm(['/site/logout'], 'post', ['class' => 'navbar-form'])
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-link']
-                )
-                . Html::endForm()
-                . '</li>'
-            )
-        ],
-    ]);
+            ['label' => 'Contact', 'url' => ['/site/contact']]
+	  ];
+	  if (Yii::$app->user->isGuest) {
+		array_push($navItems,['label' => 'Signup', 'url' => ['/user/registration/register']],['label' => 'Login', 'url' => ['/user/security/login']]);
+	  } else {
+		array_push($navItems,['label' => 'Settings', 'url' => ['/user/settings']],
+			['label' => 'Logout (' . Yii::$app->user->identity->username . ')', 'url' => ['/user/security/logout'], 'linkOptions' => ['data-method' => 'post']]
+		);
+	  }
+	echo Nav::widget([
+		'options' => ['class' => 'navbar-nav navbar-right'],
+		'items' => $navItems,
+	]);
+
     NavBar::end();
     ?>
 
