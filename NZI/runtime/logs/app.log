@@ -1,0 +1,2210 @@
+2016-05-04 15:44:37 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Menu' not found' in E:\XAMPP\htdocs\NZI\views\site\about.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-04 15:44:37 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c3126b36d902b5eacf2b0271577927a805a637aebf5e1dd46bf489f104ea9e0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OsRfRMyv3EtaHtjZOjny7H7-cvLqTLlO\";}'
+    'PHPSESSID' => 'gt0q3obt5rf86h9ilpuh1a9qt4'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=6c3126b36d902b5eacf2b0271577927a805a637aebf5e1dd46bf489f104ea9e0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OsRfRMyv3EtaHtjZOjny7H7-cvLqTLlO%22%3B%7D; PHPSESSID=gt0q3obt5rf86h9ilpuh1a9qt4'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '52814'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462369477.305
+    'REQUEST_TIME' => 1462369477
+]
+2016-05-05 08:04:33 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Menu' not found' in E:\XAMPP\htdocs\NZI\views\site\about.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-05 08:04:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '53026'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462428273.031
+    'REQUEST_TIME' => 1462428273
+]
+2016-05-05 08:07:19 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'utf8' (T_STRING), expecting ',' or ';'' in E:\XAMPP\htdocs\NZI\views\layouts\main.php:18
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-05 08:07:19 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '53058'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462428439.708
+    'REQUEST_TIME' => 1462428439
+]
+2016-05-05 08:29:30 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 08:29:30 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '53910'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462429770.635
+    'REQUEST_TIME' => 1462429770
+]
+2016-05-05 08:29:32 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/callendar' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('callendar', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/callendar', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 08:29:32 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/callendar'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fseriallist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '53911'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcallendar'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fcallendar'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462429772.324
+    'REQUEST_TIME' => 1462429772
+]
+2016-05-05 08:38:42 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 08:38:42 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54116'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462430321.998
+    'REQUEST_TIME' => 1462430321
+]
+2016-05-05 08:40:12 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/callendar' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('callendar', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/callendar', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 08:40:12 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/callendar'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fseriallist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54131'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcallendar'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fcallendar'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462430412.262
+    'REQUEST_TIME' => 1462430412
+]
+2016-05-05 08:40:13 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/calendar' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('calendar', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/calendar', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 08:40:13 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/calendar'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcallendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54135'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcalendar'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fcalendar'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462430413.237
+    'REQUEST_TIME' => 1462430413
+]
+2016-05-05 08:40:16 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/calendar' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('calendar', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/calendar', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 08:40:16 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/calendar'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54135'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcalendar'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fcalendar'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462430416.444
+    'REQUEST_TIME' => 1462430416
+]
+2016-05-05 08:40:17 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 08:40:17 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54132'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462430417.293
+    'REQUEST_TIME' => 1462430417
+]
+2016-05-05 08:40:19 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/calendar' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('calendar', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/calendar', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 08:40:19 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/calendar'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fseriallist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54135'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcalendar'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fcalendar'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462430419.141
+    'REQUEST_TIME' => 1462430419
+]
+2016-05-05 08:49:00 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 08:49:00 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54284'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462430940.125
+    'REQUEST_TIME' => 1462430940
+]
+2016-05-05 08:52:36 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 08:52:36 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54334'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462431156.228
+    'REQUEST_TIME' => 1462431156
+]
+2016-05-05 08:58:35 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 08:58:35 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54406'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462431515.341
+    'REQUEST_TIME' => 1462431515
+]
+2016-05-05 09:04:20 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/callendar' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('callendar', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/callendar', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:04:20 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/callendar'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54480'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcallendar'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fcallendar'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462431860.47
+    'REQUEST_TIME' => 1462431860
+]
+2016-05-05 09:04:23 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:04:23 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcallendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54480'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462431863.772
+    'REQUEST_TIME' => 1462431863
+]
+2016-05-05 09:14:04 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/callendar' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('callendar', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/callendar', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:14:04 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/callendar'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54576'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcallendar'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fcallendar'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432444.823
+    'REQUEST_TIME' => 1462432444
+]
+2016-05-05 09:14:06 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:14:06 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcallendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54578'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432446.126
+    'REQUEST_TIME' => 1462432446
+]
+2016-05-05 09:15:21 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:15:21 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54610'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432521.308
+    'REQUEST_TIME' => 1462432521
+]
+2016-05-05 09:16:10 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:16:10 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54612'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432570.301
+    'REQUEST_TIME' => 1462432570
+]
+2016-05-05 09:16:41 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:16:41 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fseriallist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54616'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432601.606
+    'REQUEST_TIME' => 1462432601
+]
+2016-05-05 09:16:43 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:16:43 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54618'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432603.358
+    'REQUEST_TIME' => 1462432603
+]
+2016-05-05 09:17:24 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:17:23 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54622'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432643.973
+    'REQUEST_TIME' => 1462432643
+]
+2016-05-05 09:17:25 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:17:25 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fseriallist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54622'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432645.604
+    'REQUEST_TIME' => 1462432645
+]
+2016-05-05 09:17:28 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:17:28 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54622'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432648.053
+    'REQUEST_TIME' => 1462432648
+]
+2016-05-05 09:17:30 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/seriallist' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('seriallist', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/seriallist', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:17:30 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/seriallist'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54622'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fseriallist'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fseriallist'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432650.116
+    'REQUEST_TIME' => 1462432650
+]
+2016-05-05 09:18:14 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/serial' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('serial', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/serial', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:18:14 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/serial'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fserial'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fserial'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432694.911
+    'REQUEST_TIME' => 1462432694
+]
+2016-05-05 09:18:16 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/serial' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('serial', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/serial', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:18:16 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/serial'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fserial'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fserial'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432696.606
+    'REQUEST_TIME' => 1462432696
+]
+2016-05-05 09:18:19 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/serial' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('serial', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/serial', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:18:19 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/serial'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fserial'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fserial'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432699.565
+    'REQUEST_TIME' => 1462432699
+]
+2016-05-05 09:18:30 [::1][-][hoh8278m303lhbl5d6baobg6m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/serial' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('serial', Array)
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/serial', Array)
+#2 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-05 09:18:30 [::1][-][hoh8278m303lhbl5d6baobg6m6][info][application] $_GET = [
+    'r' => 'site/serial'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gicabat'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54632'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fserial'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fserial'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432710.493
+    'REQUEST_TIME' => 1462432710
+]
+2016-05-05 09:19:00 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: E:\XAMPP\htdocs\NZI\views\site\serial.php' in E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\XAMPP\\htdocs...', Array, Object(app\controllers\SiteController))
+#1 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('serial', Array, Object(app\controllers\SiteController))
+#2 E:\XAMPP\htdocs\NZI\controllers\SiteController.php(62): yii\base\Controller->render('serial')
+#3 [internal function]: app\controllers\SiteController->actionSerial()
+#4 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('serial', Array)
+#7 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/serial', Array)
+#8 E:\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2016-05-05 09:19:00 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/serial'
+]
+
+$_COOKIE = [
+    '_csrf' => '2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf\";}'
+    'PHPSESSID' => 'hoh8278m303lhbl5d6baobg6m6'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:1337/NZI/web/index.php?r=site%2Fcalendar'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2cb383de3fc8cc67fcbed233e5ab339ab05b115ebab20d99883fbc11c1d10276a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ruFpypVdh0Ho1ZwDyxuFkW5XyXMCxsvf%22%3B%7D; PHPSESSID=hoh8278m303lhbl5d6baobg6m6'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;E:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Andrzej\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.20'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '54636'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fserial'
+    'REQUEST_URI' => '/NZI/web/index.php?r=site%2Fserial'
+    'SCRIPT_NAME' => '/NZI/web/index.php'
+    'PHP_SELF' => '/NZI/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462432740.669
+    'REQUEST_TIME' => 1462432740
+]
