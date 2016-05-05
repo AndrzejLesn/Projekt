@@ -14,20 +14,21 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-        'user' => [
-            'identityClass' => 'app\models\User',
-            'enableAutoLogin' => true,
-        ],
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
         'mailer' => [
-            'class' => 'yii\swiftmailer\Mailer',
-            // send all mails to a file by default. You have to set
-            // 'useFileTransport' to false and configure a transport
-            // for the mailer to send real emails.
-            'useFileTransport' => true,
-        ],
+			'class' => 'yii\swiftmailer\Mailer',
+			'viewPath' => '@app/mail',
+			'transport' => [
+				'class' => 'Swift_SmtpTransport',
+				'host' => 'smtp.gmail.com',
+				'username' => 'amwepisodecalendar@gmail.com',
+				'password' => 'projekt2016',
+				'port' => '465',
+				'encryption' => 'tls',
+			],
+		],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -40,13 +41,19 @@ $config = [
         'db' => require(__DIR__ . '/db.php'),
         /*
         'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-            ],
+            'enablePrettyUrl' => true
         ],
         */
     ],
+	'modules' => [
+    'user' => [
+'class' => 'dektrium\user\Module',
+'enableUnconfirmedLogin' => true,
+'confirmWithin' => 21600,
+'cost' => 12,
+'admins' => ['admin']
+],
+  ],
     'params' => $params,
 ];
 

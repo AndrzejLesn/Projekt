@@ -52,6 +52,16 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+	public function actionCalendar()
+    {
+        return $this->render('calendar');
+    }
+
+	public function actionSerial()
+    {
+        return $this->render('serial');
+    }
+
     public function actionLogin()
     {
         if (!Yii::$app->user->isGuest) {
