@@ -54,7 +54,7 @@ class SiteController extends Controller
 
 	public function actionCalendar()
     {
-        return $this->render('calendar');
+        return $this->render('index'); //na poczatku był tu calendar
     }
 
 	public function actionSerial()

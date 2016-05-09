@@ -8045,3 +8045,1694 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1462461315.849
     'REQUEST_TIME' => 1462461315
 ]
+2016-05-09 08:31:16 [::1][-][35f50famrmrkgp19e8p7b1pfr3][error][Swift_TransportException] exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php:383
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php(289): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php(117): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2-swiftmailer\Mailer.php(146): Swift_Mailer->send(Object(Swift_Message))
+#4 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\mail\BaseMailer.php(260): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#5 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\mail\BaseMessage.php(48): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#6 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\dektrium\yii2-user\Mailer.php(232): yii\mail\BaseMessage->send()
+#7 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\dektrium\yii2-user\Mailer.php(149): dektrium\user\Mailer->sendMessage('domioku@o2.pl', 'Welcome to My A...', 'welcome', Array)
+#8 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\dektrium\yii2-user\models\User.php(283): dektrium\user\Mailer->sendWelcomeMessage(Object(dektrium\user\models\User), Object(dektrium\user\models\Token))
+#9 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\dektrium\yii2-user\models\RegistrationForm.php(112): dektrium\user\models\User->register()
+#10 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\dektrium\yii2-user\controllers\RegistrationController.php(139): dektrium\user\models\RegistrationForm->register()
+#11 [internal function]: dektrium\user\controllers\RegistrationController->actionRegister()
+#12 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#14 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('register', Array)
+#15 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/registrati...', Array)
+#16 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#18 {main}
+2016-05-09 08:31:04 [::1][-][35f50famrmrkgp19e8p7b1pfr3][info][application] $_GET = [
+    'r' => 'user/registration/register'
+]
+
+$_POST = [
+    '_csrf' => 'S2Z6bUFRVmUoCwJfGAcfKzwuFwkIHTofOhAAIC4lEVEmAitfNWU0Lg=='
+    'register-form' => [
+        'email' => 'domioku@o2.pl'
+        'username' => 'domioku'
+        'password' => 'domioku123'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '93a5f5b7bb921c608bafdc3d53404ec0c330d85ffca05826c3e3bf16f78f3849a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cmx2YVINwHmdILlzqvzMotG4mdQ2t4bK\";}'
+    'PHPSESSID' => '35f50famrmrkgp19e8p7b1pfr3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gidfoa'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '182'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:1337'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/index.php?r=user%2Fregistration%2Fregister'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=93a5f5b7bb921c608bafdc3d53404ec0c330d85ffca05826c3e3bf16f78f3849a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cmx2YVINwHmdILlzqvzMotG4mdQ2t4bK%22%3B%7D; PHPSESSID=35f50famrmrkgp19e8p7b1pfr3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '49497'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fregistration%2Fregister'
+    'REQUEST_URI' => '/nzi/web/index.php?r=user%2Fregistration%2Fregister'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462775464.273
+    'REQUEST_TIME' => 1462775464
+]
+2016-05-09 09:35:38 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "luxcal/index".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('luxcal/index', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:35:37 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'luxcal/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50084'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=luxcal%2Findex'
+    'REQUEST_URI' => '/nzi/web/index.php?r=luxcal%2Findex'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779337.888
+    'REQUEST_TIME' => 1462779337
+]
+2016-05-09 09:35:47 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "luxcal/index".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('luxcal/index', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:35:46 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'luxcal/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/index.php?r=luxcal%2Findex'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50093'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=luxcal%2Findex'
+    'REQUEST_URI' => '/nzi/web/index.php?r=luxcal%2Findex'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779346.921
+    'REQUEST_TIME' => 1462779346
+]
+2016-05-09 09:36:06 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "luxcal/index".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('luxcal/index', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:36:06 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'luxcal/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/index.php?r=luxcal%2Findex'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50096'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=luxcal%2Findex'
+    'REQUEST_URI' => '/nzi/web/index.php?r=luxcal%2Findex'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779366.514
+    'REQUEST_TIME' => 1462779366
+]
+2016-05-09 09:36:08 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "luxcal/index".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('luxcal/index', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:36:08 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'luxcal/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/index.php?r=luxcal%2Findex'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50096'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=luxcal%2Findex'
+    'REQUEST_URI' => '/nzi/web/index.php?r=luxcal%2Findex'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779368.573
+    'REQUEST_TIME' => 1462779368
+]
+2016-05-09 09:37:01 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "luxcal/index".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('luxcal/index', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:37:00 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'luxcal/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/index.php?r=site%2Findex'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50102'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=luxcal%2Findex'
+    'REQUEST_URI' => '/nzi/web/index.php?r=luxcal%2Findex'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779420.896
+    'REQUEST_TIME' => 1462779420
+]
+2016-05-09 09:37:33 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "luxcal/index.php".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('luxcal/index.ph...', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:37:33 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'luxcal/index.php'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50107'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=luxcal/index.php'
+    'REQUEST_URI' => '/nzi/web/index.php?r=luxcal/index.php'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779453.266
+    'REQUEST_TIME' => 1462779453
+]
+2016-05-09 09:37:39 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "/luxcal/index.php".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('/luxcal/index.p...', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:37:39 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => '/luxcal/index.php'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50107'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=/luxcal/index.php'
+    'REQUEST_URI' => '/nzi/web/index.php?r=/luxcal/index.php'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779459.475
+    'REQUEST_TIME' => 1462779459
+]
+2016-05-09 09:37:46 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/luxcal/index.php".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/luxcal/ind...', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:37:46 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'site/luxcal/index.php'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50113'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/luxcal/index.php'
+    'REQUEST_URI' => '/nzi/web/index.php?r=site/luxcal/index.php'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779466.791
+    'REQUEST_TIME' => 1462779466
+]
+2016-05-09 09:37:54 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/luxcal' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('luxcal', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/luxcal/', Array)
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:37:54 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'site/luxcal/'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50117'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/luxcal/'
+    'REQUEST_URI' => '/nzi/web/index.php?r=site/luxcal/'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779474.654
+    'REQUEST_TIME' => 1462779474
+]
+2016-05-09 09:38:00 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/luxcal' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('luxcal', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('/site/luxcal/', Array)
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:38:00 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => '/site/luxcal/'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50117'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=/site/luxcal/'
+    'REQUEST_URI' => '/nzi/web/index.php?r=/site/luxcal/'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779480.27
+    'REQUEST_TIME' => 1462779480
+]
+2016-05-09 09:39:13 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "luxcal/index".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('luxcal/index', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:39:13 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'luxcal/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50130'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=luxcal%2Findex'
+    'REQUEST_URI' => '/nzi/web/index.php?r=luxcal%2Findex'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779553.371
+    'REQUEST_TIME' => 1462779553
+]
+2016-05-09 09:39:21 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "/views/luxcal/".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('/views/luxcal/', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:39:21 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => '/views/luxcal/'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50136'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=/views/luxcal/'
+    'REQUEST_URI' => '/nzi/web/index.php?r=/views/luxcal/'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779561.593
+    'REQUEST_TIME' => 1462779561
+]
+2016-05-09 09:39:28 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "/luxcal/".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('/luxcal/', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:39:28 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => '/luxcal/'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50140'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=/luxcal/'
+    'REQUEST_URI' => '/nzi/web/index.php?r=/luxcal/'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779567.973
+    'REQUEST_TIME' => 1462779567
+]
+2016-05-09 09:39:43 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "luxcal/index".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('luxcal/index', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:39:43 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'luxcal/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/index.php?r=/luxcal/'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50143'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=luxcal%2Findex'
+    'REQUEST_URI' => '/nzi/web/index.php?r=luxcal%2Findex'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779583.651
+    'REQUEST_TIME' => 1462779583
+]
+2016-05-09 09:39:47 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "luxcal".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('luxcal', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:39:47 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'luxcal'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/index.php?r=luxcal%2Findex'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50143'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=luxcal'
+    'REQUEST_URI' => '/nzi/web/index.php?r=luxcal'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779587.301
+    'REQUEST_TIME' => 1462779587
+]
+2016-05-09 09:44:39 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "luxcal".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('luxcal', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:44:39 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'luxcal'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/index.php?r=luxcal'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50151'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=luxcal'
+    'REQUEST_URI' => '/nzi/web/index.php?r=luxcal'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779879.172
+    'REQUEST_TIME' => 1462779879
+]
+2016-05-09 09:44:41 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/luxcal/index".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/luxcal/ind...', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:44:41 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'site/luxcal/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/index.php?r=luxcal'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50151'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fluxcal%2Findex'
+    'REQUEST_URI' => '/nzi/web/index.php?r=site%2Fluxcal%2Findex'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779881.59
+    'REQUEST_TIME' => 1462779881
+]
+2016-05-09 09:44:54 [127.0.0.1][-][2udi1493qt12m26crknncpa633][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/luxcal/index".' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/luxcal/ind...', Array)
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\moje\uczelnia\php\XAMPP\htdocs\NZI\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-05-09 09:44:53 [127.0.0.1][-][2udi1493qt12m26crknncpa633][info][application] $_GET = [
+    'r' => 'site/luxcal/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56\";}'
+    'PHPSESSID' => '2udi1493qt12m26crknncpa633'
+]
+
+$_SESSION = [
+    'cal' => 'mycal'
+    'uid' => 1
+    'calIDs' => [
+        0 => 'mycal'
+    ]
+    'mobile' => false
+    'hdr' => 1
+    'cL' => 'English'
+    'cP' => 2
+    'cG' => [
+        0 => 0
+    ]
+    'cU' => [
+        0 => 0
+    ]
+    'cC' => [
+        0 => 0
+    ]
+    'cD' => '2016-05-09'
+    'token' => '6d9014db7e6634821274df396bc3e372'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/moje/uczelnia/php/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/moje/uczelnia/php/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1337'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:1337/nzi/web/index.php?r=site%2Findex'
+    'HTTP_COOKIE' => '_csrf=932905382329322822e2b4a4cb75beff52f88e9a78c3189f2a5d9defa1036f1aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EkIBn-M_PGz7emXbdyV7JeRIWaz6fk56%22%3B%7D; PHPSESSID=2udi1493qt12m26crknncpa633'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files (x86)\\GNU\\GnuPG\\pub;C:\\Program Files (x86)\\Vagrant\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Python27\\;C:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 1337</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '1337'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/moje/uczelnia/php/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/moje/uczelnia/php/XAMPP/htdocs/NZI/web/index.php'
+    'REMOTE_PORT' => '50172'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fluxcal%2Findex'
+    'REQUEST_URI' => '/nzi/web/index.php?r=site%2Fluxcal%2Findex'
+    'SCRIPT_NAME' => '/nzi/web/index.php'
+    'PHP_SELF' => '/nzi/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1462779893.961
+    'REQUEST_TIME' => 1462779893
+]

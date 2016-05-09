@@ -73,7 +73,7 @@ TO JEST ORYGINALNY LAYOUT Z FUNKCJAMI - JAK CHCECIE TO USUNCIE, ZOSTAWIAM :P
 
 	$navItems=[
     ['label' => 'Main Page', 'url' => ['/site/index']],
-            ['label' => 'Calendar', 'url' => ['/site/calendar']],
+            ['label' => 'Calendar', 'url' => ['/site/luxcal/index']],
 			['label' => 'Serial List', 'url' => ['/site/serial']],
             ['label' => 'Contact', 'url' => ['/site/contact']]
 	  ];

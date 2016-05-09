@@ -1,0 +1,87 @@
+============================
+= LuxCal Development Notes =
+============================
+
+Change log - version 4.4:
+========================
+
+As of version 4.4.0
+===================
+01. install430.php: MySQL only: When during the calendar installation connecting 
+    to the database fails, the error message to be displayed contained an 
+    undefined variable.
+02. dw_functions.php, css.php: The week and day view has been improved. If space 
+    is available, events will take the full space. The styles have been changed 
+    to make the events more sexy (css3 - more recent browsers).
+03. month.php, week.php, day.php: The date(span) between the black back and 
+    forward arrows is now a hyperlink to the next higher level, so: day -> week, 
+    full week -> full month, work week -> work month and month -> year.
+04. settings.php: Field validation of 'Remember me' cookie expiry days didn't 
+    work properly.
+05. settings.php, toolboxx.php, ai-{lang}.php, header.php: A new admin setting 
+    has been added to enable/disable the display of View buttons next to the 
+    options panel on the navigation bar. The view menu in the options panel can 
+    now also be enabled / disabled on the Settings page. If all menus in the 
+    options panel are disabled, the options panel button will not be displayed.
+06. events.php: Send mail 0 (zero) days before event is now accepted and will 
+    result in an email reminder on the event day. If the event is added/edited 
+    on the event (start) date itself and 0 days is selected, an email will be 
+    sent directly (same as "Send mail now").
+07. notify.php: When sending email reminders, only email reminders up to 30 days 
+    before the event date were processed, whilst up to 99 days can be specified 
+    in the Event window.
+08. toolboxx.php: On the admin's Settings page, saving calendar settings speeded 
+    up by putting the database queries in a transaction.
+09. toolboxx.php: Some redundant tests removed in init<table> functions and 
+    saveSettings function.
+10. many.php: Redundant stPrep, stExec and dbQuery tests removed. testing on 
+    return value "false" already solved in try - catch construction.
+11. lctools.php: SQLite only - The "Import" option doesn't work. No connection 
+    to the database is made.
+12. lcsbar.php, css_sbar.php: Redundant (unused) <div>-tag around hover box with 
+    event details and corresponding style removed.
+13. toolbox.js, checkevt.php, header.php, search.php, lcsbar.php, month.php, 
+    year.php, dw_functions.php: The Check Event window, to check/uncheck "Todo" 
+    events, has been made redundant. Event check boxes in front of the event 
+    title can now be checked/unchecked directly by clicking the check box/check 
+    mark, without reloading the page (using ajax).
+14. toolbox.php: To prevent PHP notices, in the save last selections function, 
+    first check if the PHP session has not expired.
+15. settings.php: On the settings page under Events, posting of private events 
+    was shown twice.
+16. toolbox.php, css.php: Images displayed in the various views now have a 
+    class='thNail' which limits the maximum width to the width of the day cell, 
+    which results in a better display on small screens, like mobile devices.
+17. css.php: Some style changes: absolute positioning nav bar removed and minor 
+    padding changes to make maximum use of the "content" space.
+18. ui-{lang}.php: In the Text Search Instructions on the Search page, the 
+    explanation of the newly added user group was missing.
+19. lcalcron.php: The MySQL version and the SQLite version of the lcalcron.php 
+    file have been merged into one file. The difference are minor and the merge 
+    makes maintenance easier.
+20. settings.php, lcalcron.php, toolboxx.php, ai-{lang}.php: On the admin's 
+    settings page, under periodic functions, it can now be specified whether the 
+    cronjob is hosted locally (same server as the calendar), remote (external 
+    server), or remote with a specified IP-address. Each time the cronjob runs, 
+    even if it fails, technical details are logged in the log directory, which 
+    facilitates fault finding when setting up a cron job.
+21. groups.php: Duplicate HTML IDs and wrong label references solved in the edit 
+    group form.
+22. many.php, toolbox.js: A file upload feature has been added. If enabled in 
+    the user group, users in this group can upload pdf, jpg, gif and png files 
+    as attachment to an event. If added to the "event templates" on the admin's 
+    Settings page, in the various views and emails the attached files will 
+    appear as hyperlink, which allows the user to view the attachment in a new 
+    window.
+23. matrix.php, event.php, settings.php header.php, toolbox.js, ai-{lang}.php, 
+    ui-{lang}.php, css.php: A new view, called matrix view has been added to the 
+    calendar. The rows in this matrix are the event categories, and the columns 
+    are the calendar days, which can be scrolled horizontally.
+24. toolboxx.php, toolbox.php, install440.php: When creating new calendars, for 
+    instance via the installxxx.php script, the calendar name (ID) in the name / 
+    title pairs may now contain up to 20 of the following characters: a-z, A-Z, 
+    0-9 and _ (underscore).
+25. rssfeed.php: The calendar feeds have been made fully RSS and Atom compliant, 
+    meeting the latest recommendations. The script produces 100% valid feeds.
+26. settings.php, ai-lang.php, toolboxx.php: On the settings page, under Views, 
+    event templates may not be empty. Views slightly reorganized.
